@@ -118,6 +118,7 @@ dd.clear {
     -moz-border-radius: 90%;
     border-radius: 90%;
     width: 200px;
+    padding: 20px;
     
 }
 
