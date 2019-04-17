@@ -1,0 +1,106 @@
+body {
+    background-color:#15549a;
+    height: 75%;
+}
+html{
+    height: 100%;
+}
+
+.container {
+    width: 800px;
+    height: auto;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border:2.5px solid black;
+    margin-top: 10%
+}
+
+.div-estilo1{
+    margin-left: 18%
+}
+
+.div-estilo2{
+    margin-left: 35%
+}
+
+h1{
+    text-align: center;
+    font-size: 1.7em;
+}
+
+h2{
+    text-align: center;
+    font-size:1.2em;
+}
+.h1-titulo{
+    font-family: 'Overpass', sans-serif;
+    color: #15549a;
+}
+
+.h2-titulo{
+    font-family: 'Lato', sans-serif;
+    color: #15549a;
+}
+ 
+p,ul{
+    font-family: 'Overpass', sans-serif;
+}
+
+button {
+    margin-left: 4px;
+}
+
+hr{
+    width: 106px;
+    margin-left: 15%;
+}
+
+.button-add{
+    font-family: 'Overpass', sans-serif;
+    background-color: #15549a;
+    border-radius: 6px;
+    border: 1px solid black;
+    color: white; 
+    cursor: pointer;
+  
+}
+.button-dl{
+    font-family: 'Overpass', sans-serif;
+    background-color: #ce4f4b;
+    border-radius: 6px;
+    border: 1px solid black;
+    color: white; 
+    cursor: pointer;
+  
+}
+.button-edit{
+    font-family: 'Overpass', sans-serif;
+    background-color: #6bc92d;
+    border-radius: 6px;
+    border: 1px solid black;
+    color: white; 
+    cursor: pointer;
+  
+}
+
+button:hover {
+    background: rgba(0,0,0,0);
+    color: #3a7999;
+    box-shadow: inset 0 0 0 1px #3a7999;
+    
+}
+
+.input_texto {
+    border-radius: 6px;
+    border: 1px solid #6bc92d;
+    height: 35px;
+    width: 300px;  
+}
+
+.input_texto:hover {
+    background: rgba(9, 13, 226, 0);
+    box-shadow: 6px 6px 0px #15549a;
+    border: 1px solid #286102;
+    
+}

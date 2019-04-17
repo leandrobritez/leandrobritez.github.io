@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>TODO List App</title>
+    <link rel="stylesheet" type="text/css" href="Estilo/style.css" />
+
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Lato|Montserrat|Open+Sans|Overpass|Overpass+Mono');
+    </style>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous">
+    </script>
+    <script type="text/javascript" src="Js/todolist.js" async></script>
+
+
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="h1-titulo">Lista de Tareas</h1>
+        <div class="div-estilo1">
+            <p>
+                <label for="new-task">Nueva Tarea</label>
+                <input id="new-task" class="input_texto" type="text">
+                <button id="margen" class="add">Agregar</button>
+            </p>
+        </div>
+
+        <h2 class="h2-titulo">Lista de Tareas Pendientes</h2>
+
+        <div id="incomplete-tasks" class="div-estilo2"></div>
+
+        <h2 class="h2-titulo">Lista de Tareas Completadas</h2>
+
+        <div id="completed-tasks" class="div-estilo2"></div>
+    </div>
+
+</body>
+
+</html>
